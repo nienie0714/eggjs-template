@@ -16,11 +16,11 @@ module.exports = appInfo => {
   config.mysql = {
     // 单数据库配置信息
     client: {
-      host: '127.0.0.1',
+      host: '172.16.6.121',
       port: '3306',
       user: 'root',
       password: 'root',
-      database: 'vuesql'
+      database: 'mysql'
     },
     // 是否加载到 app 上，默认开启
     app: true,
